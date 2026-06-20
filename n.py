@@ -45,7 +45,7 @@ conn.commit()
 # --------------------------
 @st.cache_resource
 def load_model():
-    return joblib.load(r"C:\Users\chand\AppData\Local\Programs\Python\Python311\name\project\model.pkl")
+    return joblib.load(r"model.pkl")
 
 model = load_model()
 
